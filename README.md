@@ -1,5 +1,5 @@
 ### Hey, I'm Aka 👋
-I'm an 18 year old developer and founder.
+I'm an 18 year old beginner developer and founder.
 
 # 🔭 Current
 I'm currently working in [Codex](https://twitter.com/Codexcooks_) - it's a discord server built for the future. We're currently focussing on perfecting users setups and help them secure limited items at ease
