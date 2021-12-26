@@ -1,6 +1,7 @@
 ```bash
 Hey, I'm Aka 👋
 ```
+[![Discord Presence](https://lanyard-profile-readme.vercel.app/api/365733917090906113)](https://discord.com/users/365733917090906113)
 I'm an 18 year old beginner developer and founder.
 
 # 🔭 Current
