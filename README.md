@@ -5,60 +5,7 @@ Hey, I'm Aka 👋
 
 [![wakatime](https://wakatime.com/badge/user/86365d17-8c9f-4063-8547-f42d617ca55b.svg)](https://wakatime.com/@86365d17-8c9f-4063-8547-f42d617ca55b)
 
-# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
-name: Metrics
-on:
-  # Schedule updates (each hour)
-  schedule: [{cron: "0 * * * *"}]
-  # Lines below let you run workflow manually and on each commit
-  workflow_dispatch:
-  push: {branches: ["master", "main"]}
-jobs:
-  github-metrics:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          # Your GitHub token
-          # The following scopes are required:
-          #  - public_access (default scope)
-          #  - public_repo
-          # The following additional scopes may be required:
-          #  - read:org  (for organization related metrics)
-          #  - read:user (for user related data)
-          #  - repo      (optional, if you want to include private repositories)
-          token: ${{ secrets.METRICS_TOKEN }}
-
-          # Options
-          user: itsnotaka
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: America/New_York
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_limit: 5
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
-          plugin_introduction: yes
-          plugin_introduction_title: yes
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-          plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_ignored: html, css
-          plugin_languages_limit: 8
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
-          plugin_projects: yes
-          plugin_projects_limit: 4
-          repositories: 5
-          repositories_batch: 5
+![Metrics](https://metrics.lecoq.io/itsnotaka?template=classic&repositories=5&repositories.batch=5&isocalendar=1&languages=1&projects=1&activity=1&introduction=1&isocalendar.duration=half-year&languages.ignored=html%2C%20css&languages.limit=8&languages.threshold=0%25&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&projects.limit=4&projects.descriptions=false&activity.limit=5&activity.load=300&activity.days=14&activity.visibility=all&activity.timestamps=false&activity.filter=all&introduction.title=true&config.timezone=America%2FNew_York)
           
 # 📫 Contact
 To contact me quickly and easily, [DM me on Twitter](https://twitter.com/gem8160).
