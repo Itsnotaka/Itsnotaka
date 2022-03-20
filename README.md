@@ -1,7 +1,6 @@
 ```bash
 Hey, I'm Aka 👋
 ```
-[![Discord Presence](https://lanyard-profile-readme.vercel.app/api/365733917090906113)](https://discord.com/users/365733917090906113)
 
 [![wakatime](https://wakatime.com/badge/user/86365d17-8c9f-4063-8547-f42d617ca55b.svg)](https://wakatime.com/@86365d17-8c9f-4063-8547-f42d617ca55b)
 
